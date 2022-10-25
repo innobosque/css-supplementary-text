@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model (Modelo caja)</title>
+    <style>
+        * {
+           box-sizing: border-box; 
+        } 
+
+        body{
+            margin: 0;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+
+        ul{
+           margin: 0;
+           list-style-type: none;
+           padding-left: 0; 
+        }
+
+        
+
+        .main-menu li{
+            display: inline;
+        }
+        .menu a{
+            color: tomato;
+        }
+        .menu a:hover{
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    
+   <nav class="main-menu menu">
+        <ul class="menu-items">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Empresa</a></li>
+            <li><a href="#">Quiénes somos</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+   </nav>
+</body>
+</html>
